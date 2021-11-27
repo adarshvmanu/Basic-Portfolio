@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="home">
+      <nav>
+        <ul class="main-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero-container">
+        <h1>Adarsh Varghese Manu</h1>
+        <p class="hero-para"></p>
+        <a href="#about" class="explore-btn">Explore</a>
+        <div class="social-icon">
+         <a href="https://github.com/adarshvmanu" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+         <a href="https://www.linkedin.com/in/adarshvmanu/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+         <a href="https://twitter.com/adarsh_v_manu" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+      </div>
+    </header>
+    <section class="about-section" id="about">
+      <h2>About Me</h2>
+      <div class="about">
+        <p class="about-para">
+        Hi! I am Adarsh. People often describe me as a silent person. But i see myself as a motivated
+        young learner who is ready to take on challenges. I would say i am really into the User Experience
+        development mostly because i do well in thinking from the point of another person. My interests
+        are scattered into different areas in the field of Computer Science. But being a beginner,
+        i found myself interested mostly in Web & Android Development
+        </p>
+        <img
+          src="Images\profile-user-svgrepo-com.svg"
+          alt="About section image"
+          class="about-image"
+        />
+      </div>
+    </section>
+    <section class="skill-section" id="skills">
+      <h2>Skills</h2>
+      <div class="skill-cards">
+        <div class="card card1">
+          <ion-icon name="browsers"></ion-icon>
+          <h3>Web Development</h3>
+          <p class="skill-para">
+          My web development interests began at a young age
+          and i've been constantly improving my skills in it.
+          </p>
+        </div>
+        <div class="card card2">
+          <ion-icon name="logo-android"></ion-icon>
+          <h3>Android Dev</h3>
+          <p class="skill-para">
+            I am currently developing my skills in Android develpoment trying out different frameworks.
+          </p>
+        </div>
+        <div class="card card3">
+          <ion-icon name="brush"></ion-icon>
+          <h3>Design</h3>
+          <p class="skill-para">
+            I like working with different Design tools and Develop UI/UX for consumers as a hobby
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section" id="contact">
+      <h2>Contact</h2>
+      <form action="https://formsubmit.co/adarshvarghesemanu18@gmail.com" method="POST">
+        <label for="name">Name</label>
+        <input type="text" placeholder="Name" required/>
+        <label for="email">E-mail</label>
+        <input type="e-mail" placeholder="Email" required/>
+        <label for="Message">Message</label>
+        <textarea name="text-area" cols="30" rows="10" required></textarea>
+        <button>Send</button>
+      </form>
+    </section>
+    <footer>
+      <p class="footer-para">Made By Adarsh Varghese Manu, Thanks to Abhinav P Kumar</p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
